@@ -5,8 +5,8 @@ import (
 	"encoding/json"
 	"errors"
 
-	"github.com/bojand/ghz/runner"
 	"github.com/jinzhu/gorm"
+	"github.com/sanoar-khan/ghz/runner"
 )
 
 // BucketList is a slice of buckets

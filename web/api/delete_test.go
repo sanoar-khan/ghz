@@ -9,9 +9,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/bojand/ghz/web/database"
-	"github.com/bojand/ghz/web/model"
 	"github.com/labstack/echo"
+	"github.com/sanoar-khan/ghz/web/database"
+	"github.com/sanoar-khan/ghz/web/model"
 	"github.com/stretchr/testify/assert"
 )
 

@@ -3,8 +3,8 @@ package api
 import (
 	"net/http"
 
-	"github.com/bojand/ghz/web/model"
 	"github.com/labstack/echo"
+	"github.com/sanoar-khan/ghz/web/model"
 )
 
 // HistogramDatabase interface for encapsulating database access.

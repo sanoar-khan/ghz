@@ -1,6 +1,6 @@
-module github.com/bojand/ghz
+module github.com/sanoar-khan/ghz
 
-go 1.18
+go 1.22
 
 require (
 	github.com/Masterminds/sprig/v3 v3.2.3

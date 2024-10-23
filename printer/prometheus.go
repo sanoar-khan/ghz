@@ -5,9 +5,9 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/bojand/ghz/runner"
 	promtypes "github.com/prometheus/client_model/go"
 	"github.com/prometheus/common/expfmt"
+	"github.com/sanoar-khan/ghz/runner"
 )
 
 // https://github.com/prometheus/docs/blob/master/content/docs/instrumenting/exposition_formats.md

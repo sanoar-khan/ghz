@@ -5,8 +5,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/bojand/ghz/runner"
-	"github.com/bojand/ghz/web/model"
+	"github.com/sanoar-khan/ghz/runner"
+	"github.com/sanoar-khan/ghz/web/model"
 	"github.com/stretchr/testify/assert"
 )
 
