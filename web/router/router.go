@@ -8,10 +8,10 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/bojand/ghz/web/api"
-	"github.com/bojand/ghz/web/config"
-	"github.com/bojand/ghz/web/database"
 	"github.com/rakyll/statik/fs"
+	"github.com/sanoar-khan/ghz/web/api"
+	"github.com/sanoar-khan/ghz/web/config"
+	"github.com/sanoar-khan/ghz/web/database"
 
 	"github.com/go-playground/validator"
 	"github.com/labstack/echo"
@@ -19,7 +19,7 @@ import (
 	"github.com/labstack/gommon/log"
 
 	// for bundled resources
-	_ "github.com/bojand/ghz/web/router/statik"
+	_ "github.com/sanoar-khan/ghz/web/router/statik"
 )
 
 // New creates new server

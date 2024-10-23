@@ -8,10 +8,10 @@ import (
 	"google.golang.org/grpc/credentials"
 	"google.golang.org/grpc/reflection"
 
-	"github.com/bojand/ghz/internal/gtime"
-	"github.com/bojand/ghz/internal/helloworld"
-	"github.com/bojand/ghz/internal/sleep"
-	"github.com/bojand/ghz/internal/wrapped"
+	"github.com/sanoar-khan/ghz/internal/gtime"
+	"github.com/sanoar-khan/ghz/internal/helloworld"
+	"github.com/sanoar-khan/ghz/internal/sleep"
+	"github.com/sanoar-khan/ghz/internal/wrapped"
 )
 
 // TestPort is the port.

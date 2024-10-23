@@ -4,8 +4,8 @@ import (
 	"context"
 	"testing"
 
-	"github.com/bojand/ghz/internal"
 	"github.com/jhump/protoreflect/grpcreflect"
+	"github.com/sanoar-khan/ghz/internal"
 	"github.com/stretchr/testify/assert"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials/insecure"

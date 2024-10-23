@@ -14,9 +14,9 @@ import (
 	"text/template"
 	"time"
 
-	"github.com/bojand/ghz/load"
 	"github.com/jhump/protoreflect/desc"
 	"github.com/pkg/errors"
+	"github.com/sanoar-khan/ghz/load"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials"
 

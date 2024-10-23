@@ -3,9 +3,9 @@ package api
 import (
 	"net/http"
 
-	"github.com/bojand/ghz/runner"
-	"github.com/bojand/ghz/web/model"
 	"github.com/labstack/echo"
+	"github.com/sanoar-khan/ghz/runner"
+	"github.com/sanoar-khan/ghz/web/model"
 )
 
 // IngestDatabase interface for encapsulating database access.

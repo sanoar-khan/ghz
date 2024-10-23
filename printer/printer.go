@@ -10,7 +10,7 @@ import (
 	"time"
 
 	"github.com/alecthomas/template"
-	"github.com/bojand/ghz/runner"
+	"github.com/sanoar-khan/ghz/runner"
 )
 
 const (
@@ -29,13 +29,13 @@ type ReportPrinter struct {
 //
 // Supported Format:
 //
-// 		summary
-// 		csv
-// 		json
-// 		pretty
-// 		html
-// 		influx-summary
-// 		influx-details
+//	summary
+//	csv
+//	json
+//	pretty
+//	html
+//	influx-summary
+//	influx-details
 func (rp *ReportPrinter) Print(format string) error {
 	if format == "" {
 		format = "summary"
